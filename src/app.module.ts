@@ -7,10 +7,11 @@ import { ProductService } from './product/product.service';
 import { ProductController } from './product/product.controller';
 import { ProductModule } from './product/product.module';
 
-@Module({ 
+@Module({
   imports: [UserModule, ProductModule],
 
   controllers: [AppController, ProductController],
   providers: [AppService, UserService, ProductService],
 })
 export class AppModule {}
+g     
